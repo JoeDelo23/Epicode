@@ -1,0 +1,112 @@
+-----------------------Esempi datasets strutturati-----------------------
+
+
+===1) RUGBY WORLD CUP 2023, maggior numero di punti segnati
+
+POS 	COUNTRY 	TOTAL
+1 	New Zealand 	336
+2 	France 		238
+3 	England 	221
+4 	Ireland 	214
+5 	South Africa 	208
+6 	Argentina 	185
+7 	Wales 		160
+8 	Scotland 	146
+9 	Italy 		114
+10 	Fiji 		112
+11 	Japan 		109
+12 	Tonga 		96
+13 	Samoa 		92
+14 	Australia 	90
+15 	Uruguay 	65
+16 	Georgia 	64
+17 	Portugal 	64
+18 	Namibia 	37
+19 	Romania 	32
+20 	Chile 		27
+
+identificativo: POS (posizione nel rank)
+attributi: COUNTRY e TOTAL e il numero del rank
+
+
+===2) Tabulati statistici
+
+tabulate foreign
+Car 		type 	Freq. 	Percent Cum.
+Domestic	 52 	70.27 	70.27
+Foreign 	 22     29.73   100.00
+Total 		 74     100.00
+
+identificativo: Car
+attributi: type, freq, percent cum, domestic, foreign
+
+
+===3) La lista della spesa
+
+identificativo: dipende cosa vuoi scrivere come intestazione; potrebbe essere "Spesa", o "da comprare"...o magari nulla
+attributi: le lineette o i pallini o i numeri coi quali elenchi i prodotti da comprare, e poi le spunte, una volta comprati, se ti va di farle
+
+===4) Eventi che ci si aspetta creino volatilita' nei mercati finanziari
+
+Time 	Cur. 	 	Event 	Actual 	Forecast 	Previous 	
+Tuesday, October 31, 2023
+02:30 	  CNY 		Manufacturing PMI (Oct) 	  	50.4 	50.2 	
+11:00 	  EUR 		CPI (YoY) (Oct)   	  	3.2% 	4.3% 	
+15:00 	  USD 		CB Consumer Confidence (Oct) 	  	100.0 	103.0 	
+Wednesday, November 1, 2023
+13:15 	  USD 		ADP Nonfarm Employment Change (Oct) 	  	141K 	89K 	
+15:00 	  USD 		ISM Manufacturing PMI (Oct) 	  	49.0 	49.0 	
+15:00 	  USD 		ISM Manufacturing Prices (Oct) 	  	44.9 	43.8 	
+15:00 	  USD 		JOLTs Job Openings (Sep) 	  	9.270M 	9.610M 	
+15:30 	  USD 		Crude Oil Inventories 	  	  	1.371M 	
+19:00 	  USD 		FOMC Statement   	  	  	  	
+19:00 	  USD 		Fed Interest Rate Decision 	  	5.50% 	5.50% 	
+19:30 	  USD 		FOMC Press Conference   	  
+
+identificativo: Time
+attributi: currency, event, actual, forecast, previous, orario
+
+C'e' del semistrutturato in questi dati...(la data)
+Esistono dati ibridi strutturati-semistrutturati?
+
+
+-----------------------Esempi datasets non strutturati-----------------------
+
+
+===1) la foto della luna che ho fatto ieri notte
+
+===2) commenti ai video di youtube
+
+Pinned by dumb res
+2 years ago
+Il filmato è interamente studiato, scritto, filmato e montato da me, ma anche soltanto i costi di licenza del programma di montaggio lo rendono una sorta di hobby insensatamente caro, e al momento non mi permettono di farne un lavoro. Per questo motivo, se trovate utile il progetto dumb res e se ne avete la possibilità, vi chiedo di aiutarmi a tenerlo in vita con una libera donazione qui https://paypal.me/dumbres
+
+3 years ago
+Innanzitutto bentornata!
+Personalmente, la parte più "inquietante" di questo video è quando mi hai illuminato su qualcosa alla quale non avevo mai riflettuto: venendoci propinati consigli su ciò che ci piace e nella forma in cui ci piace, rimarremo sempre nella nostra "bolla" e tutto ciò non potrà farci crescere ed evolvere come individui. L'unico modo per evolversi è quello di uno scontro, uno scambio di idee di culture, di religioni, diverse. 
+Grazie ancora per questo video.
+
+3 years ago
+Beh ragazza, sei davvero brava! Capire e farsi capire non è cosa da poco; credo che abbia compreso qualcosa anche la mia gatta, solitamente distratta. In ogni modo grazie per questo invito all’approfondimento e per quelli che verranno, anche perché si avverte l’impegno e la volontà di sfrondare il mondo e le sue pieghe e di esserci un po’ di più, dentro o almeno quanto basta 
+
+
+-----------------------Esempio dataset semistrutturato-----------------------
+
+
+===1) una lista contatti scritta a mano negli anni novanta
+
+    Name,Email,Phone Number,Address
+
+    Bob Smith,bob@example.com,123-456-7890,123 Fake Street
+
+    Mike Jones,mike@example.com,098-765-4321,321 Fake Avenue
+
+
+
+
+
+
+
+
+
+
