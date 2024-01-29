@@ -1,0 +1,49 @@
+ESERCIZIO
+
+task 1
+farsi la doccia:
+- aprire la porta della doccia
+- aprire l'acqua calda della doccia
+- se vestito, svestirsi
+- se svestito, entrare nella doccia
+- chiudere la porta della doccia
+
+task 2
+leggere un libro:
+- prendere un libro
+- se non c'e' un libro, comprarlo
+- se si e' preso un libro, aprirlo dalla pagina uno
+- leggere fino a esaurimento della volonta' di lettura
+
+task 3
+camminare:
+- da fermo, in piedi, alzare il tallone del piede destro, flettere leggermente il ginocchio destro
+- spostare il peso del corpo in avanti, dal baricentro, mentre si alza il piede destro
+- alzare leggermente il ginocchio destro
+- nel frattempo, spingere leggermente alzando il tallone del piede sinistro
+- mentre si appoggia il piede destro, ripetere le istruzioni precedenti, ma col piede e il ginocchio sinistro
+- ripetere la procedura all'infinito fino a che non si da' un segnale di stop
+
+ESERCIZIO
+
+1  studenti = 25
+		#premere il comando 'Run'
+
+2  print(studenti)
+		#premere il comando 'Run' e apparira' il numero 25 a schermo
+
+3  nuovi studenti = 3
+		#premere il comando 'Run'
+
+4  totale = studenti + nuovi studenti
+		#premere il comando 'Run'
+
+5  print(totale)
+		#verra' a schermo il risultato finale, cioe' 28
+
+ESERCIZIO
+
+1  x = 'EPICODE'
+2  print(x)
+		#premere il comando 'Run', apparira' a schermo la scritta EPICODE
+
